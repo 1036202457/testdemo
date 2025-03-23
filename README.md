@@ -24,6 +24,13 @@ docker run -d -p 80:8080 --name mytestdemo testdemo:v1
 open browser and visit localhost/api/transactions
 you will find a json response: emtpy array
 ```
+### pom dependencies introduction
+* spring-boot-starter-validation for validation of request params
+* spring-boot-starter-cache for data caching architecture
+* caffeine for low-level high-performance caching
+* spring-boot-devtools for hot swap when developing
+* lombok for quick generation of getter/setter and so on
+* spring-boot-starter-test for unit test
 
 ### about stress test
 simply tested on a MacBook Pro (Retina, 13-inch, Early 2015)
